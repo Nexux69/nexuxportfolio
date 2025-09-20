@@ -4,6 +4,14 @@ import { GraduationCap, Briefcase, Code, Brain, Database, TrendingUp } from "luc
 
 export function AboutSection() {
   const timelineItems = [
+
+     {
+      icon: GraduationCap,
+      title: "BS in Computer Science",
+      subtitle: "AI & Machine Learning Specialization",
+      description: "Graduated with honors, focusing on deep learning and neural networks",
+      color: "text-cyan-400"
+    },
     {
       icon: GraduationCap,
       title: "BS in Computer Science",
