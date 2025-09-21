@@ -18,13 +18,7 @@ export function AboutSection() {
       description: "2019 - 2022 | Focused on programming, database management, and software development fundamentals.",
       color: "text-blue-400"
     },
-    {
-      icon: Briefcase,
-      title: "Artificial Intelligence Intern",
-      subtitle: "Grok Learining pvt Ltd",
-      description: "Developed predictive models and automated data pipelines",
-      color: "text-purple-400"
-    },
+    
     {
       icon: Code,
       title: "AI Projects Portfolio",
