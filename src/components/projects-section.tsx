@@ -12,7 +12,7 @@ export function ProjectsSection() {
     {
       title: "Smart Waste Classifier",
       description: "Deep learning model to classify waste into Biodegradable and Non-Biodegradable categories for smart recycling systems.",
-      image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      image: "https://unsplash.com/photos/litter-signage-YzSZN3qvHeo",
       tags: ["CNN", "TensorFlow", "MobileNetv2"],
       category: "AI",
       liveUrl: "https://smartwastee.streamlit.app/",
