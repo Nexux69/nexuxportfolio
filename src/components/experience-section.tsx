@@ -49,14 +49,14 @@ export function ExperienceSection() {
       issuer: "Amigoscode",
       date: "2025",
       icon: "🎖️"
-      link: "https://drive.google.com/file/d/1sWQcUgoEV_YF91FOsSjHMurHHQSjhKI5/view"
+      
     },
     {
       title: "AI Internship Certificate",
       issuer: "Grok Learning Pvt Ltd",
       date: "2025",
       icon: "🧠"
-      link: "https://drive.google.com/file/d/111jJhAXcYrCAQBOJcKeYxsx-DclbDbc0/view"
+      
       
     },
     {
