@@ -21,7 +21,7 @@ export function ProjectsSection() {
     {
       title: "Brain Tumor Detection",
       description: "CNN-based system that detects brain tumors from MRI scans with high accuracy.",
-      image: "https://images.unsplash.com/photo-1542838136-1c05d0458a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      image: "https://images.pexels.com/photos/4226119/pexels-photo-4226119.jpeg",
       tags: ["Deep Learning", "CNN", "Medical Imaging"],
       category: "AI",
       liveUrl: "https://brain-tumor-detection-faiz-shaikh.streamlit.app/",
@@ -30,7 +30,7 @@ export function ProjectsSection() {
     {
       title: "Lung Disease Prediction",
       description: "Deep learning model using DenseNet121 to predict lung diseases from X-ray images with real-time web deployment.",
-      image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      image: "https://images.pexels.com/photos/7579829/pexels-photo-7579829.jpeg",
       tags: ["DenseNet121", "Flask", "Computer Vision"],
       category: "AI",
       liveUrl: "https://lung-disease-prediction-faiz-shaikh.streamlit.app/",
@@ -39,7 +39,7 @@ export function ProjectsSection() {
     {
       title: "Face expression",
       description: "Real-time face recognition system using OpenCV and Firebase to mark student attendance with location logging and SMS notification.",
-      image: "https://images.unsplash.com/photo-1635353606227-5b1f144ad71a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      image: "https://images.pexels.com/photos/3760809/pexels-photo-3760809.jpeg",
       tags: ["OpenCV", "Firebase", "Real-Time AI"],
       category: "CV", // Corrected category name
       liveUrl: "#",
@@ -48,7 +48,7 @@ export function ProjectsSection() {
     {
       title: "Ai computer vision snake game ",
       description: "A fun, interactive Snake Game you control by moving a green object in front of your camera.",
-      image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      image: "https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg",
       tags: ["OpenCV", "Computor Vision" , "Numpy"],
       category: "CV", // Corrected category name
       liveUrl: "#",
@@ -57,7 +57,7 @@ export function ProjectsSection() {
     {
       title: "Shoe Price Prediction ",
       description: "Streamlit web app that predicts shoe prices based on scraped product data from Puma India website.",
-      image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      image: "https://images.pexels.com/photos/6752428/pexels-photo-6752428.jpeg",
       tags: ["Streamlit", "Linear Regression","Scikit-Learn"],
       category: "ML", // Corrected category name
       liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/",
