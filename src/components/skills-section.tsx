@@ -21,10 +21,10 @@ export function SkillsSection() {
       title: "Machine Learning",
       icon: Brain,
       skills: [
-        { name: "Python", level: 95, icon: Code },
+        { name: "Python", level: 90, icon: Code },
         { name: "TensorFlow", level: 90, icon: Cpu },
-        { name: "PyTorch", level: 85, icon: Cpu },
-        { name: "Scikit-learn", level: 92, icon: Brain }
+        { name: "Model Accuracy", level: 85, icon: Cpu },
+        { name: "Scikit-learn", level: 90, icon: Brain }
       ],
       color: "from-cyan-500 to-blue-500"
     },
@@ -32,43 +32,43 @@ export function SkillsSection() {
       title: "Data Science",
       icon: Database,
       skills: [
-        { name: "Pandas", level: 93, icon: Database },
+        { name: "Pandas", level: 90, icon: Database },
         { name: "NumPy", level: 90, icon: Database },
-        { name: "SQL", level: 88, icon: Database },
+        { name: "SQL", level: 85, icon: Database },
         { name: "R", level: 75, icon: BarChart3 }
       ],
       color: "from-purple-500 to-pink-500"
     },
     {
-      title: "Visualization",
+      title: " Data Analysis",
       icon: BarChart3,
       skills: [
-        { name: "Matplotlib", level: 87, icon: BarChart3 },
+        { name: "Matplotlib", level: 85, icon: BarChart3 },
         { name: "Seaborn", level: 85, icon: BarChart3 },
-        { name: "Plotly", level: 82, icon: TrendingUp },
+        { name: "PowerBi", level: 82, icon: TrendingUp },
         { name: "Streamlit", level: 90, icon: Monitor }
       ],
       color: "from-green-500 to-emerald-500"
     },
     {
-      title: "Specialized AI",
+      title: "AI",
       icon: Eye,
       skills: [
-        { name: "Computer Vision", level: 88, icon: Eye },
-        { name: "NLP", level: 85, icon: MessageSquare },
+        { name: "Computer Vision", level: 80, icon: Eye },
+        { name: "NLP", level: 60, icon: MessageSquare },
         { name: "Deep Learning", level: 90, icon: Zap },
-        { name: "MLOps", level: 80, icon: Settings }
+        { name: "MLops", level: 50, icon: Settings }
       ],
       color: "from-orange-500 to-red-500"
     }
   ];
 
   const tools = [
-    { name: "Jupyter", icon: "🔬" },
-    { name: "Git", icon: "🐙" },
-    { name: "Docker", icon: "🐳" },
-    { name: "AWS", icon: "☁️" },
-    { name: "Google Cloud", icon: "☁️" },
+    { name: "Google Collab", icon: "🔬" },
+    { name: "Github", icon: "😺" },
+    { name: "PowerBi", icon: "📉" },
+    { name: "PostgreSQL", icon: "🐘" },
+    { name: "Excel", icon: "📊" },
     { name: "Kaggle", icon: "🏆" }
   ];
 
