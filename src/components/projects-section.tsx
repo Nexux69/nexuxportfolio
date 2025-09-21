@@ -12,7 +12,7 @@ export function ProjectsSection() {
   {
     title: "Smart Waste Classifier",
     description: "Deep learning model to classify waste into Biodegradable and Non-Biodegradable categories for smart recycling systems.",
-    image: "https://images.unsplash.com/photo-1619022573854-dc8c7361b2b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    image: "https://unsplash.com/photos/litter-signage-YzSZN3qvHeo",
     tags: ["CNN", "TensorFlow", "MobileNetv2"],
     category: "AI",
     liveUrl: "https://smartwastee.streamlit.app/", // if you deployed add Streamlit/Colab link
@@ -21,7 +21,7 @@ export function ProjectsSection() {
   {
     title: "Brain Tumor Detection",
     description: "CNN-based system that detects brain tumors from MRI scans with high accuracy.",
-    image: "https://images.unsplash.com/photo-1606208126514-b39b5f9b7f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    image: "https://www.shutterstock.com/image-vector/artificial-intelligence-logohuman-faceelectronic-circuit-grid-2190172617",
     tags: ["Deep Learning", "CNN", "Medical Imaging"],
     category: "AI",
     liveUrl: "https://brain-tumor-detection-faiz-shaikh.streamlit.app/",
@@ -30,7 +30,7 @@ export function ProjectsSection() {
   {
     title: "Lung Disease Prediction",
     description: "Deep learning model using DenseNet121 to predict lung diseases from X-ray images with real-time web deployment.",
-    image: "https://images.unsplash.com/photo-1588776814546-ef0f2a93a8e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    image: "https://www.istockphoto.com/photo/medical-technology-doctor-use-ai-robots-for-diagnosis-care-and-increasing-accuracy-gm1961399015-557857500?searchscope=image%2Cfilm",
     tags: ["DenseNet121", "Flask", "Computer Vision"],
     category: "AI",
     liveUrl: "https://lung-disease-prediction-faiz-shaikh.streamlit.app/",
