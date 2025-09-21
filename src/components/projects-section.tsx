@@ -12,16 +12,16 @@ export function ProjectsSection() {
   {
     title: "Smart Waste Classifier",
     description: "Deep learning model to classify waste into Biodegradable and Non-Biodegradable categories for smart recycling systems.",
-    image: "https://unsplash.com/photos/litter-signage-YzSZN3qvHeo",
+    image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
     tags: ["CNN", "TensorFlow", "MobileNetv2"],
     category: "AI",
-    liveUrl: "https://smartwastee.streamlit.app/", // if you deployed add Streamlit/Colab link
+    liveUrl: "https://smartwastee.streamlit.app/",
     githubUrl: "https://github.com/Nexux69/Smart-Waste-Classifier-"
   },
   {
     title: "Brain Tumor Detection",
     description: "CNN-based system that detects brain tumors from MRI scans with high accuracy.",
-    image: "https://www.shutterstock.com/image-vector/artificial-intelligence-logohuman-faceelectronic-circuit-grid-2190172617",
+    image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
     tags: ["Deep Learning", "CNN", "Medical Imaging"],
     category: "AI",
     liveUrl: "https://brain-tumor-detection-faiz-shaikh.streamlit.app/",
@@ -30,7 +30,7 @@ export function ProjectsSection() {
   {
     title: "Lung Disease Prediction",
     description: "Deep learning model using DenseNet121 to predict lung diseases from X-ray images with real-time web deployment.",
-    image: "https://www.istockphoto.com/photo/medical-technology-doctor-use-ai-robots-for-diagnosis-care-and-increasing-accuracy-gm1961399015-557857500?searchscope=image%2Cfilm",
+    image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
     tags: ["DenseNet121", "Flask", "Computer Vision"],
     category: "AI",
     liveUrl: "https://lung-disease-prediction-faiz-shaikh.streamlit.app/",
@@ -60,7 +60,7 @@ export function ProjectsSection() {
     image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
     tags: ["Streamlit", "Linear Regression","Scikit-Learn",],
     category: "Machine learning",
-    liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/", // if deployed on Streamlit, put link here
+    liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/",
     githubUrl: "https://github.com/Nexux69/Shoe-Price-Prediction"
   }
 ];
