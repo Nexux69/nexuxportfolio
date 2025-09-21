@@ -17,7 +17,7 @@ export function ContactSection() {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com",
+      url: "https://github.com/Nexux69?tab=repositories",
       color: "hover:text-gray-300"
     },
     {
