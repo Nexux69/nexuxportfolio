@@ -5,23 +5,23 @@ import { GraduationCap, Briefcase, Code, Brain, Database, TrendingUp } from "luc
 export function AboutSection() {
   const timelineItems = [
     {
-      icon: GraduationCap,
-      title: "Information Technology",
-      subtitle: "AI & Machine Learning Specialization",
-      description: "Graduated with honors, focusing on deep learning and neural networks",
-      color: "text-cyan-400"
+     icon: GraduationCap,
+     title: "B.E. in Artificial Intelligence & Data Science",
+     subtitle: "K.G.C.E. College of Engineering | Mumbai University",
+     description: "2022 - 2025 | Specialized in AI & Data Science, worked on end-to-end ML projects with 90% accuracy.",
+     color: "text-cyan-400"
     },
     {
       icon: GraduationCap,
-      title: "BS in Computer Science",
-      subtitle: "AI & Machine Learning Specialization",
-      description: "Graduated with honors, focusing on deep learning and neural networks",
-      color: "text-cyan-400"
+      title: "Diploma in Information Technology",
+      subtitle: "Vidyalankar Polytechnic | MSBTE University",
+      description: "2019 - 2022 | Focused on programming, database management, and software development fundamentals.",
+      color: "text-blue-400"
     },
     {
       icon: Briefcase,
-      title: "Data Science Intern",
-      subtitle: "TechCorp Solutions",
+      title: "Artificial Intelligence Intern",
+      subtitle: "Grok Learining pvt Ltd",
       description: "Developed predictive models and automated data pipelines",
       color: "text-purple-400"
     },
@@ -29,7 +29,7 @@ export function AboutSection() {
       icon: Code,
       title: "AI Projects Portfolio",
       subtitle: "Personal & Open Source",
-      description: "Built 15+ ML projects ranging from NLP to computer vision",
+      description: "Built 10+ ML projects ranging from Neural Networks to Computer Vision",
       color: "text-pink-400"
     }
   ];
