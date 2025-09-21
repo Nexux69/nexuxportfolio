@@ -13,9 +13,9 @@ export function ProjectsSection() {
     title: "Smart Waste Classifier",
     description: "Deep learning model to classify waste into Biodegradable and Non-Biodegradable categories for smart recycling systems.",
     image: "https://images.unsplash.com/photo-1619022573854-dc8c7361b2b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["CNN", "TensorFlow", "Computer Vision"],
+    tags: ["CNN", "TensorFlow", "MobileNetv2"],
     category: "AI",
-    liveUrl: "#", // if you deployed add Streamlit/Colab link
+    liveUrl: "https://smartwastee.streamlit.app/", // if you deployed add Streamlit/Colab link
     githubUrl: "https://github.com/Nexux69/Smart-Waste-Classifier-"
   },
   {
@@ -24,7 +24,7 @@ export function ProjectsSection() {
     image: "https://images.unsplash.com/photo-1606208126514-b39b5f9b7f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
     tags: ["Deep Learning", "CNN", "Medical Imaging"],
     category: "AI",
-    liveUrl: "#",
+    liveUrl: "https://brain-tumor-detection-faiz-shaikh.streamlit.app/",
     githubUrl: "https://github.com/Nexux69/Brain-Tumor-Detection"
   },
   {
@@ -33,40 +33,40 @@ export function ProjectsSection() {
     image: "https://images.unsplash.com/photo-1588776814546-ef0f2a93a8e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
     tags: ["DenseNet121", "Flask", "Computer Vision"],
     category: "AI",
-    liveUrl: "#",
+    liveUrl: "https://lung-disease-prediction-faiz-shaikh.streamlit.app/",
     githubUrl: "https://github.com/Nexux69/Lung-Disease-Prediction"
   },
   {
-    title: "Face Recognition Attendance System",
+    title: "Face expression",
     description: "Real-time face recognition system using OpenCV and Firebase to mark student attendance with location logging and SMS notification.",
     image: "https://images.unsplash.com/photo-1635353606227-5b1f144ad71a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
     tags: ["OpenCV", "Firebase", "Real-Time AI"],
-    category: "AI",
+    category: "Computor Vision",
     liveUrl: "#",
-    githubUrl: "https://github.com/Nexux69/face-recognition--system-"
+    githubUrl: "https://github.com/Nexux69/face-expression"
   },
   {
-    title: "Laptop Price Prediction",
-    description: "Machine learning model to predict laptop prices based on specifications like RAM, processor, and brand.",
+    title: "Ai computer vision snake game ",
+    description: "A fun, interactive Snake Game you control by moving a green object in front of your camera.",
     image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["ML", "Regression", "Data Science"],
-    category: "ML",
+    tags: ["OpenCV", "Computor Vision" , "Numpy"],
+    category: "Computor Vision",
     liveUrl: "#",
-    githubUrl: "https://github.com/Nexux69/Laptop-Price-Prediction"
+    githubUrl: "https://github.com/Nexux69/Ai-computer-vision-snake-game-"
   },
   {
-    title: "Shoe Price Prediction App",
+    title: "Shoe Price Prediction ",
     description: "Streamlit web app that predicts shoe prices based on scraped product data from Puma India website.",
     image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["Streamlit", "Web Scraping", "ML"],
-    category: "ML",
-    liveUrl: "#", // if deployed on Streamlit, put link here
+    tags: ["Streamlit", "Linear Regression","Scikit-Learn",],
+    category: "Machine learning",
+    liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/", // if deployed on Streamlit, put link here
     githubUrl: "https://github.com/Nexux69/Shoe-Price-Prediction"
   }
 ];
 
 
-  const categories = ["All", "AI", "ML", "Data Science"];
+  const categories = ["All", "AI", "ML", "CV"];
 
   const filteredProjects = filter === "All" 
     ? projects 
@@ -86,8 +86,8 @@ export function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            A showcase of my AI and machine learning projects, each solving real-world problems 
-            with cutting-edge technology and innovative approaches.
+            A showcase of my hands-on ML and AI projects I created while learning
+            to sharpen my skills in deep learning, data science, and model deployment.
           </p>
         </motion.div>
 
