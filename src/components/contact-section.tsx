@@ -23,19 +23,19 @@ export function ContactSection() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/faiz-shaikh-9210112a6/",
       color: "hover:text-blue-400"
     },
     {
       name: "Kaggle",
       icon: ExternalLink,
-      url: "https://kaggle.com",
+      url: "https://www.kaggle.com/zenondatasetuser",
       color: "hover:text-cyan-400"
     },
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:alex.chen@email.com",
+      url: "mailto:faizsk2003@gmail.com",
       color: "hover:text-purple-400"
     }
   ];
@@ -93,8 +93,8 @@ export function ContactSection() {
             Let's Connect
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Ready to collaborate on exciting AI projects or discuss opportunities? 
-            I'd love to hear from you!
+           Open to AI/ML roles, collaborations, and freelance opportunities.
+            Let’s discuss how I can add value to your team
           </p>
         </motion.div>
 
@@ -216,7 +216,7 @@ export function ContactSection() {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <p className="text-cyan-400 font-medium">Location</p>
-                  <p>San Francisco Bay Area, CA</p>
+                  <p>Mumbai, India</p>
                 </div>
                 <div>
                   <p className="text-purple-400 font-medium">Availability</p>
