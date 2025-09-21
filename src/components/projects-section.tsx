@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion"; // Changed to framer-motion since it's more common and likely intended.
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
@@ -9,67 +9,66 @@ export function ProjectsSection() {
   const [filter, setFilter] = useState("All");
 
   const projects = [
-  {
-    title: "Smart Waste Classifier",
-    description: "Deep learning model to classify waste into Biodegradable and Non-Biodegradable categories for smart recycling systems.",
-    image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["CNN", "TensorFlow", "MobileNetv2"],
-    category: "AI",
-    liveUrl: "https://smartwastee.streamlit.app/",
-    githubUrl: "https://github.com/Nexux69/Smart-Waste-Classifier-"
-  },
-  {
-    title: "Brain Tumor Detection",
-    description: "CNN-based system that detects brain tumors from MRI scans with high accuracy.",
-    image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["Deep Learning", "CNN", "Medical Imaging"],
-    category: "AI",
-    liveUrl: "https://brain-tumor-detection-faiz-shaikh.streamlit.app/",
-    githubUrl: "https://github.com/Nexux69/Brain-Tumor-Detection"
-  },
-  {
-    title: "Lung Disease Prediction",
-    description: "Deep learning model using DenseNet121 to predict lung diseases from X-ray images with real-time web deployment.",
-    image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["DenseNet121", "Flask", "Computer Vision"],
-    category: "AI",
-    liveUrl: "https://lung-disease-prediction-faiz-shaikh.streamlit.app/",
-    githubUrl: "https://github.com/Nexux69/Lung-Disease-Prediction"
-  },
-  {
-    title: "Face expression",
-    description: "Real-time face recognition system using OpenCV and Firebase to mark student attendance with location logging and SMS notification.",
-    image: "https://images.unsplash.com/photo-1635353606227-5b1f144ad71a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["OpenCV", "Firebase", "Real-Time AI"],
-    category: "Computor Vision",
-    liveUrl: "#",
-    githubUrl: "https://github.com/Nexux69/face-expression"
-  },
-  {
-    title: "Ai computer vision snake game ",
-    description: "A fun, interactive Snake Game you control by moving a green object in front of your camera.",
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["OpenCV", "Computor Vision" , "Numpy"],
-    category: "Computor Vision",
-    liveUrl: "#",
-    githubUrl: "https://github.com/Nexux69/Ai-computer-vision-snake-game-"
-  },
-  {
-    title: "Shoe Price Prediction ",
-    description: "Streamlit web app that predicts shoe prices based on scraped product data from Puma India website.",
-    image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
-    tags: ["Streamlit", "Linear Regression","Scikit-Learn",],
-    category: "Machine learning",
-    liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/",
-    githubUrl: "https://github.com/Nexux69/Shoe-Price-Prediction"
-  }
-];
-
+    {
+      title: "Smart Waste Classifier",
+      description: "Deep learning model to classify waste into Biodegradable and Non-Biodegradable categories for smart recycling systems.",
+      image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      tags: ["CNN", "TensorFlow", "MobileNetv2"],
+      category: "AI",
+      liveUrl: "https://smartwastee.streamlit.app/",
+      githubUrl: "https://github.com/Nexux69/Smart-Waste-Classifier-"
+    },
+    {
+      title: "Brain Tumor Detection",
+      description: "CNN-based system that detects brain tumors from MRI scans with high accuracy.",
+      image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      tags: ["Deep Learning", "CNN", "Medical Imaging"],
+      category: "AI",
+      liveUrl: "https://brain-tumor-detection-faiz-shaikh.streamlit.app/",
+      githubUrl: "https://github.com/Nexux69/Brain-Tumor-Detection"
+    },
+    {
+      title: "Lung Disease Prediction",
+      description: "Deep learning model using DenseNet121 to predict lung diseases from X-ray images with real-time web deployment.",
+      image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      tags: ["DenseNet121", "Flask", "Computer Vision"],
+      category: "AI",
+      liveUrl: "https://lung-disease-prediction-faiz-shaikh.streamlit.app/",
+      githubUrl: "https://github.com/Nexux69/Lung-Disease-Prediction"
+    },
+    {
+      title: "Face expression",
+      description: "Real-time face recognition system using OpenCV and Firebase to mark student attendance with location logging and SMS notification.",
+      image: "https://images.unsplash.com/photo-1635353606227-5b1f144ad71a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      tags: ["OpenCV", "Firebase", "Real-Time AI"],
+      category: "CV", // Corrected category name
+      liveUrl: "#",
+      githubUrl: "https://github.com/Nexux69/face-expression"
+    },
+    {
+      title: "Ai computer vision snake game ",
+      description: "A fun, interactive Snake Game you control by moving a green object in front of your camera.",
+      image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      tags: ["OpenCV", "Computor Vision" , "Numpy"],
+      category: "CV", // Corrected category name
+      liveUrl: "#",
+      githubUrl: "https://github.com/Nexux69/Ai-computer-vision-snake-game-"
+    },
+    {
+      title: "Shoe Price Prediction ",
+      description: "Streamlit web app that predicts shoe prices based on scraped product data from Puma India website.",
+      image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      tags: ["Streamlit", "Linear Regression","Scikit-Learn"],
+      category: "ML", // Corrected category name
+      liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/",
+      githubUrl: "https://github.com/Nexux69/Shoe-Price-Prediction"
+    }
+  ];
 
   const categories = ["All", "AI", "ML", "CV"];
 
-  const filteredProjects = filter === "All" 
-    ? projects 
+  const filteredProjects = filter === "All"
+    ? projects
     : projects.filter(project => project.category === filter);
 
   return (
