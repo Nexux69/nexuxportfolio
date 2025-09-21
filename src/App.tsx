@@ -26,7 +26,7 @@ export default function App() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Alex Chen
+              Faiz Shaikh
             </div>
             <div className="hidden md:flex space-x-8">
               {[
