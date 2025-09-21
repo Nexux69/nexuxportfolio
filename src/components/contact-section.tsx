@@ -168,12 +168,7 @@ export function ContactSection() {
           viewport={{ once: true }}
           className="text-center mt-16 pt-8 border-t border-slate-700"
         >
-          <p className="text-gray-400">
-            © 2024 Alex Chen. Built with{" "}
-            <span className="text-cyan-400">React</span> +{" "}
-            <span className="text-purple-400">Tailwind</span> +{" "}
-            <span className="text-pink-400">AI</span>
-          </p>
+          
         </motion.div>
       </div>
     </section>
