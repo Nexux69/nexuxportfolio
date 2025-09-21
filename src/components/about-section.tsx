@@ -29,27 +29,27 @@ export function AboutSection() {
       icon: Code,
       title: "AI Projects Portfolio",
       subtitle: "Personal & Open Source",
-      description: "Built 10+ ML projects ranging from Neural Networks to Computer Vision",
+      description: "Built ML projects ranging from Neural Networks to Computer Vision",
       color: "text-pink-400"
     }
   ];
   const funFacts = [
     {
-      icon: Brain,
-      title: "Neural Networks",
-      fact: "Trained 50+ models",
+      icon: Code,
+      title: "AI Projects",
+      fact: "Trained 10+ models",
       color: "bg-gradient-to-r from-cyan-500/20 to-blue-500/20"
     },
     {
-      icon: Database,
-      title: "Data Processed",
-      fact: "10M+ records",
+      icon: Brain,
+      title: ""Deep Learning Models"",
+      fact: "CNN, RNN, DenseNet, MobileNet",
       color: "bg-gradient-to-r from-purple-500/20 to-pink-500/20"
     },
     {
       icon: TrendingUp,
       title: "Model Accuracy",
-      fact: "95%+ average",
+      fact: "90%+ average",
       color: "bg-gradient-to-r from-green-500/20 to-emerald-500/20"
     }
   ];
