@@ -187,33 +187,36 @@ export function ExperienceSection() {
           </div>
         </div>
 
-        {/* Certifications */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <h3 className="text-2xl font-bold text-white mb-8 text-center">Certifications</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {certifications.map((cert, index) => (
-              <motion.div
-                key={cert.title}
-                initial={{ opacity: 0, rotateY: 90 }}
-                whileInView={{ opacity: 1, rotateY: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ rotateY: 10, scale: 1.05 }}
-                className="cursor-pointer"
-                style={{ transformStyle: 'preserve-3d' }}
-              >
-                <Card className="bg-gradient-to-br from-slate-800/80 to-slate-700/80 backdrop-blur-sm border-slate-600 p-6 text-center hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300">
-                  <div className="text-4xl mb-3">{cert.icon}</div>
-                  <h4 className="text-white font-medium mb-2 text-sm">{cert.title}</h4>
-                  <p className="text-gray-400 text-xs mb-1">{cert.issuer}</p>
-                  <p className="text-cyan-400 text-xs">{cert.date}</p>
-                </Card>
-              </motion.div>
+     {/* Certifications */}
+<motion.div
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+>
+  <h3 className="text-2xl font-bold text-white mb-8 text-center">Certifications</h3>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+    {certifications.map((cert, index) => (
+      <motion.div
+        key={cert.title}
+        initial={{ opacity: 0, rotateY: 90 }}
+        whileInView={{ opacity: 1, rotateY: 0 }}
+        transition={{ duration: 0.6, delay: index * 0.1 }}
+        viewport={{ once: true }}
+        whileHover={{ rotateY: 10, scale: 1.05 }}
+        className="cursor-pointer"
+        style={{ transformStyle: 'preserve-3d' }}
+      >
+        <Card className="bg-gradient-to-br from-slate-800/80 to-slate-700/80 backdrop-blur-sm border-slate-600 p-6 text-center hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 w-64">
+          <div className="text-4xl mb-3">{cert.icon}</div>
+          <h4 className="text-white font-medium mb-2 text-sm">{cert.title}</h4>
+          <p className="text-gray-400 text-xs mb-1">{cert.issuer}</p>
+          <p className="text-cyan-400 text-xs">{cert.date}</p>
+        </Card>
+      </motion.div>
+    ))}
+  </div>
+</motion.div>
             ))}
           </div>
         </motion.div>
