@@ -139,30 +139,6 @@ export function ContactSection() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            {/* Social Links */}
-            <Card className="bg-slate-800/50 backdrop-blur-sm border-slate-700 p-8">
-              <h3 className="text-2xl font-bold text-white mb-6">Connect With Me</h3>
-              <div className="grid grid-cols-2 gap-4">
-                {socialLinks.map((link, index) => (
-                  <motion.a
-                    key={link.name}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    whileHover={{ scale: 1.05, y: -5 }}
-                    className={`flex items-center gap-3 p-4 bg-slate-700/50 rounded-lg text-gray-300 ${link.color} transition-all duration-300 hover:bg-slate-700`}
-                  >
-                    <link.icon className="w-5 h-5" />
-                    <span className="font-medium">{link.name}</span>
-                  </motion.a>
-                ))}
-              </div>
-            </Card>
-
             {/* Quick Info */}
             <Card className="bg-slate-800/50 backdrop-blur-sm border-slate-700 p-8">
               <h3 className="text-2xl font-bold text-white mb-6">Quick Info</h3>
