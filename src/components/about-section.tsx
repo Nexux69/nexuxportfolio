@@ -42,7 +42,7 @@ export function AboutSection() {
     },
     {
       icon: Brain,
-      title: ""Deep Learning Models"",
+      title: "Deep Learning Models",
       fact: "CNN, RNN, DenseNet, MobileNet",
       color: "bg-gradient-to-r from-purple-500/20 to-pink-500/20"
     },
