@@ -21,7 +21,7 @@ export function ProjectsSection() {
     {
       title: "Brain Tumor Detection",
       description: "CNN-based system that detects brain tumors from MRI scans with high accuracy.",
-      image: "https://images.unsplash.com/photo-1577717903265-9b2fcd5c8a2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      image: "https://images.unsplash.com/photo-1542838136-1c05d0458a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
       tags: ["Deep Learning", "CNN", "Medical Imaging"],
       category: "AI",
       liveUrl: "https://brain-tumor-detection-faiz-shaikh.streamlit.app/",
