@@ -72,7 +72,7 @@ export function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            Alex Chen
+            Faiz Shaikh
           </motion.h1>
           
           <motion.div
@@ -85,7 +85,7 @@ export function HeroSection() {
             <span className="mx-2 text-purple-400">|</span>
             <span className="text-purple-400">ML Enthusiast</span>
             <span className="mx-2 text-cyan-400">|</span>
-            <span className="text-pink-400">Innovator</span>
+            <span className="text-pink-400">Python Developer</span>
           </motion.div>
 
           <motion.p
@@ -94,8 +94,7 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Building the future with artificial intelligence, one neural network at a time. 
-            Passionate about creating intelligent solutions that make a difference.
+           AI & ML Developer passionate about deep learning, model deployment, and solving real-world problems with data.
           </motion.p>
 
           <motion.div
