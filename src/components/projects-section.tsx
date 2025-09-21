@@ -9,61 +9,62 @@ export function ProjectsSection() {
   const [filter, setFilter] = useState("All");
 
   const projects = [
-    {
-      title: "Neural Style Transfer",
-      description: "Deep learning model that applies artistic styles to images using convolutional neural networks",
-      image: "https://images.unsplash.com/photo-1645839078449-124db8a049fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwbmV1cmFsJTIwbmV0d29ya3xlbnwxfHx8fDE3NTgyNjk2Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["AI", "Deep Learning", "Computer Vision"],
-      category: "AI",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Stock Price Predictor",
-      description: "Machine learning model using LSTM networks to predict stock prices with technical indicators",
-      image: "https://images.unsplash.com/photo-1684610529682-553625a1ffed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwxfHx8fDE3NTgzNTExMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["ML", "Time Series", "Finance"],
-      category: "ML",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Customer Segmentation",
-      description: "Advanced clustering algorithm to segment customers for targeted marketing campaigns",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwc2NpZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NTgzNzcxNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["Data Science", "Clustering", "Marketing"],
-      category: "Data Science",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Sentiment Analysis API",
-      description: "NLP model for real-time sentiment analysis of social media posts and reviews",
-      image: "https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZWVwJTIwbGVhcm5pbmclMjBhbGdvcml0aG18ZW58MXx8fHwxNzU4MzMzMzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["AI", "NLP", "API"],
-      category: "AI",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Healthcare Data Dashboard",
-      description: "Interactive dashboard for analyzing patient data and predicting health outcomes",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwc2NpZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NTgzNzcxNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["Data Science", "Healthcare", "Visualization"],
-      category: "Data Science",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Recommendation Engine",
-      description: "Collaborative filtering system for personalized product recommendations",
-      image: "https://images.unsplash.com/photo-1684610529682-553625a1ffed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwxfHx8fDE3NTgzNTExMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["ML", "Recommendation", "E-commerce"],
-      category: "ML",
-      liveUrl: "#",
-      githubUrl: "#"
-    }
-  ];
+  {
+    title: "Smart Waste Classifier",
+    description: "Deep learning model to classify waste into Biodegradable and Non-Biodegradable categories for smart recycling systems.",
+    image: "https://images.unsplash.com/photo-1619022573854-dc8c7361b2b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    tags: ["CNN", "TensorFlow", "Computer Vision"],
+    category: "AI",
+    liveUrl: "#", // if you deployed add Streamlit/Colab link
+    githubUrl: "https://github.com/Nexux69/Smart-Waste-Classifier-"
+  },
+  {
+    title: "Brain Tumor Detection",
+    description: "CNN-based system that detects brain tumors from MRI scans with high accuracy.",
+    image: "https://images.unsplash.com/photo-1606208126514-b39b5f9b7f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    tags: ["Deep Learning", "CNN", "Medical Imaging"],
+    category: "AI",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Nexux69/Brain-Tumor-Detection"
+  },
+  {
+    title: "Lung Disease Prediction",
+    description: "Deep learning model using DenseNet121 to predict lung diseases from X-ray images with real-time web deployment.",
+    image: "https://images.unsplash.com/photo-1588776814546-ef0f2a93a8e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    tags: ["DenseNet121", "Flask", "Computer Vision"],
+    category: "AI",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Nexux69/Lung-Disease-Prediction"
+  },
+  {
+    title: "Face Recognition Attendance System",
+    description: "Real-time face recognition system using OpenCV and Firebase to mark student attendance with location logging and SMS notification.",
+    image: "https://images.unsplash.com/photo-1635353606227-5b1f144ad71a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    tags: ["OpenCV", "Firebase", "Real-Time AI"],
+    category: "AI",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Nexux69/face-recognition--system-"
+  },
+  {
+    title: "Laptop Price Prediction",
+    description: "Machine learning model to predict laptop prices based on specifications like RAM, processor, and brand.",
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    tags: ["ML", "Regression", "Data Science"],
+    category: "ML",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Nexux69/Laptop-Price-Prediction"
+  },
+  {
+    title: "Shoe Price Prediction App",
+    description: "Streamlit web app that predicts shoe prices based on scraped product data from Puma India website.",
+    image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+    tags: ["Streamlit", "Web Scraping", "ML"],
+    category: "ML",
+    liveUrl: "#", // if deployed on Streamlit, put link here
+    githubUrl: "https://github.com/Nexux69/Shoe-Price-Prediction"
+  }
+];
+
 
   const categories = ["All", "AI", "ML", "Data Science"];
 
