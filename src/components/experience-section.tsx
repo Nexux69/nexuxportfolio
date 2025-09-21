@@ -10,64 +10,63 @@ export function ExperienceSection() {
 
   const experiences = [
     {
-      company: "TechCorp Solutions",
+      company: "Grok Learning Pvt Ltd",
       logo: "🏢",
-      role: "Data Science Intern",
-      duration: "Jun 2024 - Aug 2024",
-      location: "San Francisco, CA",
-      description: "Developed machine learning models for customer behavior prediction and automated data pipelines.",
+      role: "AI Intern",
+      duration: "Jan 2025 - Mar 2025",
+      location: "Sion, Mumbai",
+      description: "Built and tested AI models for image and text datasets, contributed to model deployment pipelines.",
       achievements: [
-        "Built predictive models with 92% accuracy for customer churn prediction",
-        "Automated data preprocessing pipeline, reducing manual work by 70%",
-        "Created interactive dashboards using Streamlit for stakeholders",
-        "Collaborated with cross-functional teams on 3 major projects"
+        "Collected and preprocessed image dataset for smart waste management system",
+        "Trained and fine-tuned Imagenet model achieving 90%+ accuracy",
+        "Tested model outputs on unseen waste images to ensure robustness",
+        "Delivered trained model to company for IoT integration"
       ],
-      technologies: ["Python", "Pandas", "Scikit-learn", "SQL", "Streamlit", "AWS"],
+      technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Google Colab"],
       type: "Internship"
     },
     {
-      company: "University Research Lab",
+      company: "INFOTACT Solutions",
       logo: "🎓",
       role: "Research Assistant",
-      duration: "Jan 2024 - May 2024",
+      duration: "Sep 2025 - Dec 2025",
       location: "Remote",
-      description: "Conducted research on neural network optimization and published findings in academic conferences.",
+      description: "Developed a Predictive Maintenance system for bike-sharing services to reduce downtime and improve efficiency..",
       achievements: [
-        "Co-authored 2 papers on deep learning optimization techniques",
-        "Developed novel attention mechanisms for transformer models",
-        "Mentored 5 undergraduate students in ML projects",
-        "Presented research at 3 international conferences"
+        "Analyzed historical bike usage data to detect failure patterns",
+        "Performed Feature Engineering and extracted meaningful insights",
+        "Built ML model(XGBoost) to predict maintenance",
+        "Deployed the project using streamlit"
       ],
-      technologies: ["PyTorch", "CUDA", "Python", "LaTeX", "Git"],
-      type: "Research"
+      technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit", "SQL","XGBoost"],
+      type: "Intership/Client Project"
     }
   ];
 
   const certifications = [
     {
-      title: "Machine Learning Specialization",
-      issuer: "Stanford University (Coursera)",
-      date: "2024",
+      title: "Python Programming Certificate",
+      issuer: "Amigoscode",
+      date: "2025",
       icon: "🎖️"
+      link: "https://drive.google.com/file/d/1sWQcUgoEV_YF91FOsSjHMurHHQSjhKI5/view"
     },
     {
-      title: "Deep Learning Specialization",
-      issuer: "DeepLearning.AI",
-      date: "2023",
+      title: "AI Internship Certificate",
+      issuer: "Grok Learning Pvt Ltd",
+      date: "2025",
       icon: "🧠"
+      link: "https://drive.google.com/file/d/111jJhAXcYrCAQBOJcKeYxsx-DclbDbc0/view"
+      
     },
     {
-      title: "AWS Certified ML Specialty",
-      issuer: "Amazon Web Services",
+      title: "Data Science Intern",
+      issuer: "INFOTACT Solutions",
       date: "2024",
       icon: "☁️"
+      
     },
-    {
-      title: "TensorFlow Developer Certificate",
-      issuer: "Google",
-      date: "2023",
-      icon: "🔧"
-    }
+    
   ];
 
   const toggleExpanded = (index: number) => {
