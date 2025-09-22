@@ -28,7 +28,7 @@ export function ExperienceSection() {
     {
       company: "INFOTACT Solutions",
       logo: "🎓",
-      role: "Research Assistant",
+      role: "Data Associate",
       duration: "Sep 2025 - Dec 2025",
       location: "Remote",
       description: "Developed a Predictive Maintenance system for bike-sharing services to reduce downtime and improve efficiency..",
