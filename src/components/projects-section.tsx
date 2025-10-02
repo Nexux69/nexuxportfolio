@@ -62,7 +62,7 @@ export function ProjectsSection() {
       category: "ML", // Corrected category name
       liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/",
       githubUrl: "https://github.com/Nexux69/Shoe-Price-Prediction"
-    }
+    },
 
      {
       title: "Drug Classification system ",
@@ -72,7 +72,7 @@ export function ProjectsSection() {
       category: "ML", // Corrected category name
       liveUrl: "https://drug-classification-faiz-shaikh.streamlit.app/",
       githubUrl: "https://github.com/Nexux69/Drug-classification"
-    }
+    },
 
    {
       title: "Coffee Sales prediction ",
@@ -81,7 +81,7 @@ export function ProjectsSection() {
       tags: [" XGBoost Regressor","Scikit-Learn"],
       category: "DA", // Corrected category name
       githubUrl: "https://github.com/Nexux69/coffee-sale-prediction"
-    }
+    },
 
    {
       title: "Colorado-Motor-sales-prediction ",
@@ -90,7 +90,7 @@ export function ProjectsSection() {
       tags: ["Streamlit", "Random Forest","Scikit-Learn"],
       category: "DA", // Corrected category name
       githubUrl: "https://github.com/Nexux69/Colorado-Motor-sales-prediction"
-    }
+    },
   ];
 
   const categories = ["All", "AI", "ML", "CV","DA"];
