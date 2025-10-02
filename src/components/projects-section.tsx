@@ -63,9 +63,37 @@ export function ProjectsSection() {
       liveUrl: "https://shoe-price-prediction-faiz-shaikh.streamlit.app/",
       githubUrl: "https://github.com/Nexux69/Shoe-Price-Prediction"
     }
+
+     {
+      title: "Drug Classification system ",
+      description: "Built a machine learning model to classify drugs based on patient data.",
+      image: "https://images.pexels.com/photos/6752428/pexels-photo-6752428.jpeg",
+      tags: ["Streamlit", "Random Forest","Scikit-Learn"],
+      category: "ML", // Corrected category name
+      liveUrl: "https://drug-classification-faiz-shaikh.streamlit.app/",
+      githubUrl: "https://github.com/Nexux69/Drug-classification"
+    }
+
+   {
+      title: "Coffee Sales prediction ",
+      description: "A machine learning project to analyze coffee sales data and predict sales amounts using XGBoost",
+      image: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
+      tags: [" XGBoost Regressor","Scikit-Learn"],
+      category: "DA", // Corrected category name
+      githubUrl: "https://github.com/Nexux69/coffee-sale-prediction"
+    }
+
+   {
+      title: "Colorado-Motor-sales-prediction ",
+      description: "Developed a predictive model using historical and engineered features to forecast monthly motor vehicle sales in Colorado",
+      image: "https://images.pexels.com/photos/16124140/pexels-photo-16124140.jpeg",
+      tags: ["Streamlit", "Random Forest","Scikit-Learn"],
+      category: "DA", // Corrected category name
+      githubUrl: "https://github.com/Nexux69/Colorado-Motor-sales-prediction"
+    }
   ];
 
-  const categories = ["All", "AI", "ML", "CV"];
+  const categories = ["All", "AI", "ML", "CV","DA"];
 
   const filteredProjects = filter === "All"
     ? projects
