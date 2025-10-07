@@ -67,7 +67,7 @@ export function ProjectsSection() {
      {
       title: "Drug Classification system ",
       description: "Built a machine learning model to classify drugs based on patient data.",
-      image: "https://images.pexels.com/photos/6752428/pexels-photo-6752428.jpeg",
+      image: "https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg",
       tags: ["Streamlit", "Random Forest","Scikit-Learn"],
       category: "ML", // Corrected category name
       liveUrl: "https://drug-classification-faiz-shaikh.streamlit.app/",
